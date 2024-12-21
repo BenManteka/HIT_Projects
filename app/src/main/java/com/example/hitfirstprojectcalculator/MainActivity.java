@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                 case '%':
-                    resultValue = num1 / 100; // Calculate percentage
+                    resultValue = (num1 * num2) / 100; // Calculate percentage
                     break;
             }
 
